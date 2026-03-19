@@ -1,0 +1,101 @@
+---
+description: Create short personalized Loom video scripts for job descriptions
+alwaysApply: true
+---
+
+# Loom Video Script Rule (Freelancer Side)
+
+When the user asks for a Loom video script for a job description, write a short personalized script in 3 versions.
+
+## Writing Style
+
+- Very simple and human words.
+- No buzzwords.
+- No fluff.
+- Short, clear, and direct.
+- Personalized to the exact client project.
+- Keep total video length around 60-120 seconds unless user asks longer.
+
+## Required Output Format
+
+Use clear section titles and separate each section with:
+`----------------------------`
+
+## Required 3 Versions (Always Provide)
+
+1) Version A: With Diagram
+- Script includes a quick diagram/flow explanation.
+- Best when showing solution structure or new ideas clearly.
+
+2) Version B: No Diagram
+- Script is direct talking only.
+- No visuals required besides normal screen context.
+
+3) Version C: Screen Share + Camera
+- Script assumes user shows face + screen.
+- Includes what to say and what to show, step by step.
+
+## For Each Version, Always Include
+
+- Video goal (1 line)
+- Opening line (no "Hi I'm...")
+- Main talking points (3-5 points)
+- Closing CTA (clear next step)
+- Time split (example: 0:00-0:15, 0:15-0:45, etc.)
+
+## Step-by-Step Recording Guide (Mandatory)
+
+For each version, provide exact recording steps:
+
+1. What to prepare before recording
+2. What to show first on screen
+3. What to say in first 10-15 seconds
+4. What to show/say in middle
+5. How to close in final 10-15 seconds
+6. What CTA to end with
+
+## Diagram Rules (for Version A)
+
+- Include one simple diagram only (no complex chart).
+- Use either:
+  - Mermaid flowchart
+  - Simple text flow (A -> B -> C)
+- Diagram must match the project problem and your proposed solution.
+- If diagram is not useful for this job, still provide a minimal clear flow.
+
+## Personalization Rules
+
+- Start from the client's risk and business goal.
+- Reference 1-2 project-specific points from the job post.
+- Mention one relevant proof briefly (similar work).
+- Answer any client questions if they asked them in the post.
+
+## What To Avoid
+
+- Generic intros and copied script tone.
+- Over-explaining your background.
+- Long technical lecture.
+- Too many promises without evidence.
+- Weak ending without next action.
+
+## Reusable Output Template
+
+[TITLE: Version A - With Diagram]
+Goal:
+Time split:
+Script:
+Diagram:
+Step-by-step recording actions:
+----------------------------
+[TITLE: Version B - No Diagram]
+Goal:
+Time split:
+Script:
+Step-by-step recording actions:
+----------------------------
+[TITLE: Version C - Screen Share + Camera]
+Goal:
+Time split:
+Script:
+What to show on screen at each step:
+Step-by-step recording actions:

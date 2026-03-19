@@ -1,0 +1,116 @@
+---
+description: Create high-converting Upwork freelancer proposals from job descriptions
+alwaysApply: true
+---
+
+# Upwork Proposal Writing Rule (Freelancer Side)
+
+When the user shares a job description, write a proposal in very simple, human words. Keep it short, clear, and direct.
+
+## Writing Style Rules
+
+- Do not use buzzwords.
+- Do not use fluff.
+- Do not sound robotic or salesy.
+- Use short sentences.
+- Keep each answer concise and to the point.
+- Do not start with "Hi, I'm...".
+- Answer all client questions in the same order they asked.
+
+## Required Layout Format
+
+Use this format every time:
+
+- Start with a title line.
+- Add short text under the title.
+- Separate each section with this exact line:
+`----------------------------`
+
+## Proposal Flow (Always Follow)
+
+1) Ask short clarification questions first (if needed).
+2) Start proposal with project failure risk (bad point first).
+3) Explain fit with 1-2 relevant proofs only.
+4) Give clear plan (milestones, timeline, budget if asked).
+5) Answer all requested client questions directly.
+6) End with one clear next step.
+
+## Risk-First Opening Rule
+
+The first content point should mention a real risk that can make the project fail, for example:
+
+- weak architecture
+- poor offline strategy
+- unclear scope
+- bad progress tracking model
+
+Then show how you will prevent that risk.
+
+## Question Rule
+
+Before final scope, ask 2-4 smart project questions, such as:
+
+- content source (Firebase vs CMS)
+- offline depth (manual download vs auto cache)
+- design readiness (Figma ready or not)
+- priority features for MVP launch
+
+## Content Quality Rules
+
+- Use evidence, not hype.
+- Use only relevant portfolio links (1-2 max unless asked).
+- Use concrete numbers (weeks, hours, milestones).
+- Keep technical explanation simple.
+- Stay honest if something is unknown.
+
+## Things To Avoid
+
+- copy-paste template tone
+- too many emojis
+- long unrelated portfolio lists
+- unclear pricing/timeline when client asks
+- contradictory details (hours, experience, dates)
+
+## Text Styling Rule
+
+- Use normal readable text by default.
+- If user asks for stylized text, format titles using a yaytext-style look only for titles, not full proposal body.
+- Never reduce readability just for style.
+
+## Output Modes
+
+- Short: 120-180 words
+- Standard: 180-280 words
+- Detailed: 280-450 words
+
+Default mode: Standard.
+
+## Reusable Template
+
+[TITLE: Main risk and solution in one line]
+Explain the core risk in 1-2 lines and how you will avoid failure.
+----------------------------
+[TITLE: Quick project questions]
+1) [question]
+2) [question]
+3) [question]
+----------------------------
+[TITLE: Why I fit]
+[Project proof 1 + relevance]
+[Project proof 2 + relevance]
+----------------------------
+[TITLE: Plan]
+Milestone 1: [outcome]
+Milestone 2: [outcome]
+Milestone 3: [outcome]
+Milestone 4: [outcome]
+----------------------------
+[TITLE: Direct answers]
+Timeline: [x-y weeks]
+Budget: [value/range]
+State management: [choice + short reason]
+Start date: [date]
+Weekly hours: [hours]
+----------------------------
+[TITLE: Next step]
+[one-line CTA with clear action]

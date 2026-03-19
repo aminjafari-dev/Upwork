@@ -1,0 +1,65 @@
+main job posted description:
+
+SummaryWe are looking for a skilled Flutter developer (or small team) to create a modern, cross-platform mobile education application for both iOS and Android.
+The app will help students / learners improve their knowledge through structured content, progress tracking, interactive elements, and a clean, engaging user experience.
+This is most likely an MVP (Minimum Viable Product) phase — we want clean code, good architecture, and a solid foundation so we can easily add features later.
+Core features we need (Phase 1 – MVP):
+
+User authentication (email/password + Google/Apple sign-in)
+Onboarding flow (3–4 simple screens)
+Home dashboard showing progress, recommended lessons, quick stats
+Course / subject listing (categories with cards or grid)
+Lesson detail screen (rich text support + images, possibly embedded YouTube videos later)
+Simple progress tracking (completed lessons, percentage per course/subject)
+Basic offline support for already downloaded lessons/content (using Hive, sqflite or similar)
+Clean, modern UI/UX (material 3 / cupertino widgets – we can provide Figma reference or mood board)
+Responsive layouts that look good on phones and tablets
+Basic settings screen (language, notifications toggle, dark/light mode switch)
+Push notifications integration (Firebase Cloud Messaging setup)
+
+Nice-to-have / Phase 2 (can discuss later):
+
+Quiz / multiple-choice questions with scoring
+Bookmark / favorites system
+In-app purchases or subscription model (RevenueCat or similar)
+AI-generated explanations or chat (future integration)
+Admin panel / content management (web or Firebase console)
+
+Technical requirements:
+
+Flutter 3.× (latest stable)
+Clean architecture (preferably Bloc / Riverpod / Provider – state management of your choice but must be well organized)
+Proper state management & dependency injection
+Firebase integration (Auth, Firestore / Realtime DB, Storage, FCM, Analytics)
+Good folder structure & code documentation/comments
+Unit/widget tests for core business logic (at least 30–40% coverage is appreciated)
+Prepared for App Store & Play Store submission (icons, splash, permissions handled correctly)
+
+What we provide / expect from you:
+
+We will share detailed requirements, user stories, and (if ready) Figma designs or wireframes
+Regular updates (every 3–5 days) via Upwork messages + short Loom videos or screenshots
+We use GitHub – you’ll work in a private repo (we create it)
+Milestone-based payments (we prefer 3–5 milestones)
+
+Ideal candidate profile:
+
+3+ years of professional Flutter experience (please share 2–3 relevant apps you built)
+Published at least 2–3 Flutter apps on both App Store and Play Store
+Strong UI/UX sensibility (you care about animations, micro-interactions, performance)
+Experience with Firebase (very important for this project)
+Good English communication (written & voice calls)
+Available for 15–30 hours/week during the next 2–4 months
+
+
+To apply, please include in your proposal:
+
+Link to 1–2 Flutter education/learning/productivity apps you personally built (or were main developer on)
+Your rough estimate: timeline + fixed price for the MVP features listed above
+Which state management you prefer for this kind of app and why
+When you can start and average weekly hours you can dedicate
+
+Looking forward to working with a reliable, communicative Flutter expert who delivers polished mobile apps!
+Thank you!
+
+---------

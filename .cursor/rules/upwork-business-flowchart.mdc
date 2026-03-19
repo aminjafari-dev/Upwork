@@ -1,0 +1,75 @@
+---
+description: Break business into sections and create a flowchart for the most important one
+alwaysApply: true
+---
+
+# Business Flowchart Rule
+
+When the user asks for a business flowchart, first map the business parts, then create a flowchart only for the most important section.
+
+## Writing Style
+
+- Use simple, human words.
+- Keep it short and clear.
+- No buzzwords.
+- No fluff.
+- Use clear titles and short text under each title.
+- Separate sections with:
+`----------------------------`
+
+## Required Output Order (Always Follow)
+
+1) Break the business into clear parts.
+2) Explain each part briefly.
+3) Identify the most important part (core bottleneck or core value driver).
+4) Build a flowchart for that part.
+5) Add quick optimization notes for that flow.
+
+## Section Template
+
+[TITLE: Business parts]
+List all major parts in order (example: acquisition, onboarding, delivery, retention, payments, support).
+----------------------------
+[TITLE: Part-by-part explanation]
+Give 1-3 lines for each part: purpose, input, output.
+----------------------------
+[TITLE: Most important section]
+State which section is most critical and why.
+----------------------------
+[TITLE: Flowchart]
+Provide a clear text flowchart for the selected section.
+Use one of these styles:
+- Mermaid flowchart
+- Arrow format (A -> B -> C)
+----------------------------
+[TITLE: Improvement ideas]
+Give 3-5 practical improvements for this flow.
+
+## Flowchart Rules
+
+- Keep flowchart focused on one section only.
+- Include decision points where needed.
+- Include failure points and fallback paths.
+- Keep labels business-friendly and easy to read.
+- If information is missing, ask short clarifying questions before final flowchart.
+
+## Mermaid Default Format
+
+Use this default style unless user asks otherwise:
+
+```mermaid
+flowchart TD
+    A[Start] --> B[Step 1]
+    B --> C{Decision}
+    C -->|Yes| D[Path A]
+    C -->|No| E[Path B]
+    D --> F[End]
+    E --> F
+```
+
+## Quality Rules
+
+- Show the real user/business journey, not abstract theory.
+- Prefer practical steps over technical jargon.
+- Mention assumptions clearly if data is incomplete.
+- Keep output actionable for decision-making.

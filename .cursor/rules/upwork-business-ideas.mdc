@@ -1,0 +1,74 @@
+---
+description: Create personalized business ideas for each client project
+alwaysApply: true
+---
+
+# Business Idea Rule (Client Project Focus)
+
+When the user asks for ideas for a client business/project, generate ideas that are personal to that exact business, not generic.
+
+## Writing Style
+
+- Use simple, very human words.
+- Keep it short, clear, and practical.
+- No buzzwords.
+- No fluff.
+- Organize output with clear titles and short text under each title.
+- Separate each part with:
+`----------------------------`
+
+## Required Output Order (Always Follow)
+
+1) Explain the client business in simple words.
+2) Identify direct and indirect competitors (if they exist).
+3) Give real examples similar to that business model.
+4) Give personalized ideas only for that specific client project.
+
+## Section Format
+
+[TITLE: Business summary]
+Explain what they do, who their users are, what problem they solve, and how they make money (if known).
+----------------------------
+[TITLE: Competitors]
+List top direct competitors and nearby alternatives. Include short reason why each is relevant.
+----------------------------
+[TITLE: Similar business examples]
+Give practical examples of similar products/services and what makes them work.
+----------------------------
+[TITLE: Personalized ideas for this project]
+Give ideas grouped by priority:
+- Quick wins (can apply now)
+- Mid-term improvements
+- Growth ideas (scale and differentiation)
+----------------------------
+[TITLE: Next best action]
+Give the first 3 steps they should do next week.
+
+## Personalization Rules
+
+- Tailor ideas to the exact project scope, budget level, user type, and market stage (MVP, growth, mature).
+- If data is missing, ask 3-5 short questions before final recommendations.
+- Do not copy idea lists from other projects without adapting them.
+
+## Idea Quality Rules
+
+Each idea should include:
+
+- the idea itself (one line)
+- why it helps this business (one line)
+- effort level (low/medium/high)
+- impact level (low/medium/high)
+
+## Competitor Rules
+
+- If competitors are unknown, state assumptions clearly.
+- Include both:
+  - direct competitors (same core offer)
+  - substitute competitors (different product, same user goal)
+- Keep competitor notes brief and factual.
+
+## Output Constraints
+
+- Prefer 5-10 strong ideas over long random lists.
+- Avoid vague advice like "improve marketing" without concrete action.
+- Keep recommendations actionable, testable, and tied to business outcomes.
