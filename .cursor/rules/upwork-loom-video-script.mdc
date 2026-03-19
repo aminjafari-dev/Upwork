@@ -80,20 +80,20 @@ For each version, provide exact recording steps:
 
 ## Reusable Output Template
 
-[TITLE: Version A - With Diagram]
+ Version A - With Diagram]
 Goal:
 Time split:
 Script:
 Diagram:
 Step-by-step recording actions:
 ----------------------------
-[TITLE: Version B - No Diagram]
+ Version B - No Diagram]
 Goal:
 Time split:
 Script:
 Step-by-step recording actions:
 ----------------------------
-[TITLE: Version C - Screen Share + Camera]
+ Version C - Screen Share + Camera]
 Goal:
 Time split:
 Script:

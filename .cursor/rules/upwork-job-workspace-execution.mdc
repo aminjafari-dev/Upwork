@@ -1,0 +1,72 @@
+---
+description: For every new pasted job, create numbered job folder and generate all required deliverables as separate markdown files
+alwaysApply: true
+---
+
+# Upwork Job Workspace Execution Rule
+
+When the user pastes a new job post in chat, create a dedicated job folder and write all deliverables as separate markdown files.
+
+## Trigger
+
+Run this workflow whenever the user provides a new job description or job post text.
+
+## Folder Location
+
+Create the job folder in the workspace root unless the user requests a different location.
+
+## Folder Naming Rule (Mandatory)
+
+Use this pattern:
+
+`001-job-title-slug`
+
+Rules:
+- Start at `001` for the first job folder.
+- Increment by 1 for each new job (`002`, `003`, ...).
+- Convert title to lowercase slug with hyphens.
+- Remove special characters.
+- Keep the title short but identifiable.
+
+Example:
+`001-shopify-subscription-box-redesign`
+
+## Required Files (Mandatory)
+
+Create these files in each new job folder:
+
+1) `01-job-post.md`
+- Paste or summarize the original job post clearly.
+
+2) `02-business-ideas.md`
+- Generate ideas using the Business Idea Rule style and structure.
+- Keep recommendations personalized to that exact job.
+
+3) `03-business-flowchart.md`
+- Generate flowchart output using the Business Flowchart Rule style and structure.
+
+4) `04-loom-video-script.md`
+- Generate 3 script versions using the Loom Video Script Rule style and structure.
+
+5) `05-proposal.md`
+- Generate proposal using the Upwork Proposal Writing Rule style and structure.
+
+## Output Quality Rules
+
+- Keep language simple, human, and direct.
+- Avoid generic text and copy-paste tone.
+- Personalize all files to the exact job context.
+- Ask short clarification questions first when critical details are missing.
+
+## Consistency Rules
+
+- Keep all files in markdown format (`.md`).
+- Do not merge multiple deliverables into one file.
+- Use a clear title at the top of each file.
+- Follow each specialized rule for content style and layout.
+
+## If User Shares Multiple Jobs
+
+- Create one folder per job post.
+- Continue numbering in sequence.
+- Keep each job's files isolated in its own folder.

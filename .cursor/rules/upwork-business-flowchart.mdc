@@ -27,22 +27,22 @@ When the user asks for a business flowchart, first map the business parts, then 
 
 ## Section Template
 
-[TITLE: Business parts]
+ Business parts]
 List all major parts in order (example: acquisition, onboarding, delivery, retention, payments, support).
 ----------------------------
-[TITLE: Part-by-part explanation]
+ Part-by-part explanation]
 Give 1-3 lines for each part: purpose, input, output.
 ----------------------------
-[TITLE: Most important section]
+ Most important section]
 State which section is most critical and why.
 ----------------------------
-[TITLE: Flowchart]
+ Flowchart]
 Provide a clear text flowchart for the selected section.
 Use one of these styles:
 - Mermaid flowchart
 - Arrow format (A -> B -> C)
 ----------------------------
-[TITLE: Improvement ideas]
+ Improvement ideas]
 Give 3-5 practical improvements for this flow.
 
 ## Flowchart Rules

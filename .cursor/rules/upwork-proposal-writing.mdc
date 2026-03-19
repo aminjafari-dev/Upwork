@@ -71,11 +71,6 @@ Before final scope, ask 2-4 smart project questions, such as:
 - unclear pricing/timeline when client asks
 - contradictory details (hours, experience, dates)
 
-## Text Styling Rule
-
-- Use normal readable text by default.
-- If user asks for stylized text, format titles using a yaytext-style look only for titles, not full proposal body.
-- Never reduce readability just for style.
 
 ## Output Modes
 
@@ -87,30 +82,30 @@ Default mode: Standard.
 
 ## Reusable Template
 
-[TITLE: Main risk and solution in one line]
+ Main risk and solution in one line]
 Explain the core risk in 1-2 lines and how you will avoid failure.
 ----------------------------
-[TITLE: Quick project questions]
+ Quick project questions]
 1) [question]
 2) [question]
 3) [question]
 ----------------------------
-[TITLE: Why I fit]
+Why I fit
 [Project proof 1 + relevance]
 [Project proof 2 + relevance]
 ----------------------------
-[TITLE: Plan]
+Plan
 Milestone 1: [outcome]
 Milestone 2: [outcome]
 Milestone 3: [outcome]
 Milestone 4: [outcome]
 ----------------------------
-[TITLE: Direct answers]
+Direct answers
 Timeline: [x-y weeks]
 Budget: [value/range]
 State management: [choice + short reason]
 Start date: [date]
 Weekly hours: [hours]
 ----------------------------
-[TITLE: Next step]
+Next step
 [one-line CTA with clear action]
